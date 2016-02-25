@@ -1,0 +1,2 @@
+# BellatrixExcersice
+Ejercicio de .NET
