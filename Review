@@ -1,0 +1,35 @@
+A continuación se detalla cada linea de codigo y su respectivo comentario:
+	
+	L7 - Los espacios innecesarios deben eliminarse para tener un codigo mas legible y ordenado.
+	L13 - LogToDataBase al ser una variable global deberia empezar con un "_" por ejemplo: _logToDataBase.
+	L14 - _initialized no se la usa en ningun momento.
+	L15 - _logToDatabase se lo podria poner como el tercer parametro que recibe el metodo para que sea mas intuitivo.
+	L15 - Dejar un espacio entre la declaracion de variables y la definicion de un metodo para que sea mas simple distinguir.
+	L25 - message = isMessage, warning = isWarning, error = isError <- Son nombres mas descriptivos para parametros booleanos.
+	L25 - Si LogMessage es static las instancias de JobLooger no podran llamarlo.
+	L25 - No puede haber 2 variables con el mismo nombre.
+	L27 - En caso de que message sea null, el metodo Trim() devolvera un error.
+	L27 - No cumple ninguna funcion y se lo podria utilizar.
+	L28/L32/L36 - Los modulos if es conveniente separarlos para que el codigo sea mas legible. 
+	L28 - Deberia utilizar una variable que contenga el string generado por message.Trim(), esta variable deberia estar inicializada antes con el valor "" ya que en caso de que message sea null la condicion if recibira un string vacio.
+	L36 - Los modulos if es conveniente separarlos para que el codigo sea mas legible.
+	L44 - Se deberia hacer un bloque try catch para las excepciones del metodo Open(), excepciones: ConfigurationErrorsException - InvalidOperationException - SqlException
+	L43 - Se deberia hacer un bloque try catch para las excepciones del metodo AppSettings, excepciones: ConfigurationErrorsException
+	L46 - t no es un nombre lo suficientemente descriptivo, podria llamarse logType
+	L46/L64 - Debe ser inicializada con algun valor
+	L48/L52 - se deberia utilizar else if, ya que en caso de que se cumpla la condicion anterior no es necesario evaluar las siguientes.
+	L62 - Se deberia hacer un bloque try catch para las excepciones del metodo ExecuteNonQuery(), excepciones: ConfigurationErrorsException - InvalidOperationException - SqlException - ObjectDisposedException
+	L64 - l no es un nombre lo suficientemente descriptivo, podria llamarse loggedText
+	L67 - Se deberia hacer un bloque try catch para las excepciones del metodo ReadAllText, excepciones: ArgumentException - FileNotFoundException - DirectoryNotFoundException - UnauthorizedAccessException - IOException - NotSupportedException
+	L70 a L81 - Sin importar cual de la condiciones sea la que se cumple el mensaje se armara de la misma manera
+	L83 - Se deberia hacer un bloque try catch para las excepciones del metodo WriteAllText, excepciones: ArgumentException - DirectoryNotFoundException - UnauthorizedAccessException - IOException - NotSupportedException
+	L85 a L96 - El color podria definirse en la primera vez que se busca cual es el tipo de mensaje que se va a mostrar (Error, Warning, Message).
+	
+	Estas librerias deberian añadirse al principio para que el codigo quede mas ordenado y legible en las siguientes lineas:
+	L43/L61 - System.Data.SqlClient 
+	L43/65/67/L83 - System.Configuration
+	L65/L67/L83 - System.IO
+
+	Como comentario aparte si bien lo correcto para las excepciones es atraparlas con bloques try catch, colocar muchos de estos hacen que el programa se vuelva
+	mas costoso por lo que seria recomendable colocar desde la linea 43 hasta la linea 91 dentro de un try y luego colocar los catchs necesarios, ya que varias de las
+	excepciones se repiten.
