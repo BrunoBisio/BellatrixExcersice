@@ -1,0 +1,18 @@
+c:\users\bruno\documents\visual studio 2015\Projects\bellatrixLog\bellatrixLog\bin\Debug\bellatrixLog.exe.config
+c:\users\bruno\documents\visual studio 2015\Projects\bellatrixLog\bellatrixLog\obj\Debug\bellatrixLog.csprojResolveAssemblyReference.cache
+c:\users\bruno\documents\visual studio 2015\Projects\bellatrixLog\bellatrixLog\bin\Debug\bellatrixLog.exe
+c:\users\bruno\documents\visual studio 2015\Projects\bellatrixLog\bellatrixLog\bin\Debug\bellatrixLog.pdb
+c:\users\bruno\documents\visual studio 2015\Projects\bellatrixLog\bellatrixLog\obj\Debug\bellatrixLog.exe
+c:\users\bruno\documents\visual studio 2015\Projects\bellatrixLog\bellatrixLog\obj\Debug\bellatrixLog.pdb
+C:\Users\bruno\Documents\GitHub\bellatrix\bellatrixLog\bin\Debug\bellatrixLog.exe.config
+C:\Users\bruno\Documents\GitHub\bellatrix\bellatrixLog\obj\Debug\bellatrixLog.exe
+C:\Users\bruno\Documents\GitHub\bellatrix\bellatrixLog\obj\Debug\bellatrixLog.pdb
+C:\Users\bruno\Documents\GitHub\bellatrix\bellatrixLog\JobLooger\bin\Debug\bellatrixLog.exe.config
+C:\Users\bruno\Documents\GitHub\bellatrix\bellatrixLog\JobLooger\obj\Debug\bellatrixLog.exe
+C:\Users\bruno\Documents\GitHub\bellatrix\bellatrixLog\JobLooger\obj\Debug\bellatrixLog.pdb
+C:\Users\bruno\Documents\Visual Studio 2015\Projects\bellatrixLog\bin\Debug\bellatrixLog.exe.config
+C:\Users\bruno\Documents\Visual Studio 2015\Projects\bellatrixLog\obj\Debug\bellatrixLog.exe
+C:\Users\bruno\Documents\Visual Studio 2015\Projects\bellatrixLog\obj\Debug\bellatrixLog.pdb
+C:\Users\bruno\Documents\Visual Studio 2015\Projects\bellatrixLog\bin\Debug\bellatrixLog.exe
+C:\Users\bruno\Documents\Visual Studio 2015\Projects\bellatrixLog\bin\Debug\bellatrixLog.pdb
+C:\Users\bruno\Documents\Visual Studio 2015\Projects\bellatrixLog\obj\Debug\bellatrixLog.csprojResolveAssemblyReference.cache
