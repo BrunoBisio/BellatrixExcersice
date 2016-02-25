@@ -1,4 +1,4 @@
-A continuación se detalla cada linea de codigo y su respectivo comentario:
+A continuación se detalla cada linea de codigo usando como referencia el archivo OriginalCode.cs y su respectivo comentario:
 	
 	L7 - Los espacios innecesarios deben eliminarse para tener un codigo mas legible y ordenado.
 	L13 - LogToDataBase al ser una variable global deberia empezar con un "_" por ejemplo: _logToDataBase.
